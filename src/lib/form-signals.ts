@@ -17,3 +17,7 @@ export const formSignals = <T extends ControlMap<T>>(formGroup: FormGroup<T>): F
 
   return signals;
 }
+
+export const sum = (num1: number, num2: number):number => {
+  return num1 + num2;
+}
